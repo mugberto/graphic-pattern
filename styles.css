@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Pattern styles */
+
+.pattern {
+  position: relative;
+  margin: 0 auto;
+  top: 50vh;
+  transform: translateY(-50%);
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  background-color: #8f8;
+  background-image: radial-gradient(ellipse 40% 30% at top, salmon 98%, transparent),
+    radial-gradient(ellipse 40% 30% at bottom, turquoise 98%, transparent),
+    radial-gradient(ellipse 30% 40% at right, yellow 98%, transparent),
+    radial-gradient(ellipse 30% 40% at left, deeppink 98%, transparent);
+  background-size: 10% 10%;
+  background-repeat: repeat;
+}
